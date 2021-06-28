@@ -56,9 +56,6 @@ nnoremap <silent><C-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
 vnoremap <leader>y "+y<CR>
 nnoremap <leader>Y "+Y<CR>
 
-" highlight current line during insert mode:
-au InsertEnter,InsertLeave * set cul!
-
 " change cursor to line in insert mode:
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"
 let &t_SR = "\<Esc>]50;CursorShape=2\x7"
@@ -66,10 +63,6 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
 " undo tree:
 nnoremap <leader>ut :UndotreeToggle<CR>
-
-
-" Ctrl-f for fuzzy finder
-nnoremap <silent> <C-f> :Files<CR>
 
 " Maximize pane on m
 nnoremap <leader>m :MaximizerToggle<CR>
