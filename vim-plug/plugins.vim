@@ -3,7 +3,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 Plug 'morhetz/gruvbox'
 Plug 'jremmen/vim-ripgrep'
-Plug 'tmsvg/pear-tree'
 Plug 'mbbill/undotree'
 Plug 'puremourning/vimspector'
 Plug 'szw/vim-maximizer'
