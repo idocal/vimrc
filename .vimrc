@@ -46,7 +46,7 @@ nnoremap <leader>Y "+Y<CR>
 
 " normal Y behavior
 nnoremap Y y$
-"
+
 "" center cursor
 nnoremap n nzzzv
 nnoremap N Nzzzv
@@ -57,8 +57,8 @@ vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 inoremap <C-j> <esc>:m .+1<CR>==
 inoremap <C-k> <esc>:m .-2<CR>==
-nnoremap <leader>k :m .-2<CR>==
-nnoremap <leader>j :m .+1<CR>==
+nnoremap <leader>J :m .+1<CR>==
+nnoremap <leader>K :m .-2<CR>==
 
 " change cursor to line in insert mode:
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"

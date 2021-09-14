@@ -2,7 +2,7 @@
 lua << EOF
 local function on_attach()
 end
-require'lspconfig'.pyls.setup{ on_attach=on_attach }
+require('lspconfig').pylsp.setup{ on_attach=on_attach }
 EOF
 
 " LSP config (the mappings used in the default file don't quite work right)
