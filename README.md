@@ -12,7 +12,7 @@ pip install 'python-lsp-server[all]'
 Clone this repo:
 ```sh
 git clone https://github.com/idocal/vimrc
-ln -s vimrc ~/.config/nvim
+ln -s ~/vimrc ~/.config/nvim
 ```
 
 Install all plugins using [vim-plug](https://github.com/junegunn/vim-plug):
