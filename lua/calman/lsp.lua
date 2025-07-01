@@ -56,7 +56,7 @@ if client.resolved_capabilities.document_formatting then
          ]], true)
     end
 end
-nvim_lsp.tsserver.setup {
+nvim_lsp.ts_ls.setup {
     on_attach = function(client)
         client.resolved_capabilities.document_formatting = false
         on_attach(client)
