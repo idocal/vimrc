@@ -2,7 +2,17 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
 Plug 'neovim/nvim-lspconfig'
-Plug 'hrsh7th/nvim-compe'
+
+" --- Completion (cmp) ---
+Plug 'hrsh7th/nvim-cmp'                  " core
+Plug 'hrsh7th/cmp-nvim-lsp'              " LSP source
+Plug 'hrsh7th/cmp-buffer'                " buffer words
+Plug 'hrsh7th/cmp-path'                  " filesystem paths
+Plug 'hrsh7th/cmp-cmdline'               " : and / completion (optional)
+" Snippets (optional but recommended)
+Plug 'L3MON4D3/LuaSnip'
+Plug 'saadparwaiz1/cmp_luasnip'
+
 Plug 'morhetz/gruvbox'
 Plug 'jremmen/vim-ripgrep'
 Plug 'mbbill/undotree'
